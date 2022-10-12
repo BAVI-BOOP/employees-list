@@ -1,0 +1,15 @@
+.employees-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.employees-container img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 4rem;
+}
+
+.columns {
+    flex-direction: column;
+}

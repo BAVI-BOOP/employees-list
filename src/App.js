@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Components/header/Header";
+import Employees from "./Components/employees/employees";
+import Buttons from "./Components/buttons/Buttons";
+import React, { useState } from "react";
 
 function App() {
+  const [counter, setCounter] = useState(0);
+
+  const handleChange = ({ target })=> {
+    if(target.value ==="Next") {
+      console.log(counter)
+
+      if(counter < 15){
+        setCounter(prevCount => prevCount + 5)
+      }
+ 
+    }else if(target.value ==="Prev"){
+      if(counter >0) {
+        setCounter(prevCount => prevCount - 5)
+      }
+
+    }
+  };
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Header counter={counter}/>
+        <Employees count={counter}/>
+        <Buttons func={handleChange}/>
+      </div>
     </div>
   );
 }
