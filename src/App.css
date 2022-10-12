@@ -16,7 +16,40 @@
 .container {
   border: 5px solid #FFFF00;
   padding: 10px;
-  width: 20rem;
+  width: 23rem;
   height: 35rem;
   background-color: white;
 }
+
+
+
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+  @media screen and (max-width: 576px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+
+
+
