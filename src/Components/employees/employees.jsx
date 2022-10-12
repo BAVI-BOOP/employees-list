@@ -13,9 +13,9 @@ console.log(count)
                 <img src={item.image} alt="employee" />
             </div>
                     <div key={item.id}>
-                    <p>{item.name}</p>
-                    <p>{item.email}</p>
-                    <p>{item.age}</p>
+                    <p className='name'>{item.name}</p>
+                    <p className='mail'>{item.email}</p>
+                    <p className='age'>{item.age}</p>
                 </div>
     
         </div>
