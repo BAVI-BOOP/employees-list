@@ -1,6 +1,6 @@
 .employees-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin-top: 1rem;
 }
 
@@ -8,6 +8,7 @@
     border-radius: 50%;
     object-fit: cover;
     width: 4rem;
+    margin-right: 1rem;
 }
 
 .columns {
