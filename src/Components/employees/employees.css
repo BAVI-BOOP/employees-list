@@ -12,7 +12,7 @@
 }
 
 .employees-container p:not(.name){
-    margin-top: 0.4rem;
+    margin-top: 0.3rem;
 }
 
 .columns {
