@@ -2,6 +2,7 @@
     display: flex;
     justify-content: flex-start;
     margin-top: 1.1rem;
+    margin-left: 1.5rem;
 }
 
 .employees-container img{
