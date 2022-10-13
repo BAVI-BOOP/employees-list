@@ -13,12 +13,17 @@ function App() {
 
       if(counter < 15){
         setCounter(prevCount => prevCount + 5)
+      }else{
+        setCounter(0)
       }
  
     }else if(target.value ==="Prev"){
       if(counter >0) {
         setCounter(prevCount => prevCount - 5)
+      }else{
+        setCounter(15)
       }
+ 
 
     }
   };
