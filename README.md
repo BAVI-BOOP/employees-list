@@ -3,7 +3,7 @@
 </p>
 
 
-# Project : Travel Website - Traven
+# Project : Employee List
 ## Table of contents
 
   - [The challenge](#the-challenge)
