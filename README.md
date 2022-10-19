@@ -47,7 +47,7 @@ The aim of this project is to create a employees display page with the given dat
 <hr>
 
 ### Built with
--React
+- React
 - jsx
 ## Notes
 
